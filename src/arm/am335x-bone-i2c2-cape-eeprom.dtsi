@@ -11,8 +11,8 @@
 &am33xx_pinmux {
 	i2c2_pins: pinmux_i2c2_pins {
 		pinctrl-single,pins = <
-			0x17C 0x30
-			0x178 0x30
+			0x17c 0x73
+			0x178 0x73
 		>;
 	};
 

@@ -72,7 +72,6 @@
 };
 
 
-#include "am335x-bone-i2c2-cape-eeprom.dtsi"
 
 &am33xx_pinmux {
 	bone_replicape_spi1_pins: pinmux_replicape_spi1_pins {
@@ -112,4 +111,7 @@
                 // Stepper current has mode 0 (CPOL = 0, CPHA = 0)
         };
 };
+
+
+#include "am335x-bone-i2c2-cape-eeprom.dtsi"
 
